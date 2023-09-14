@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.header {
+    background-color: rgb(146, 156, 143);
+    background-image: url(../images/Oleg.jpg);
+    background-size:15%;
+    background-blend-mode:multiply;
+}
+
+.container {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.main-menu {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: rgb(115, 226, 30);
+    margin-right: 10px;
+}
+
+.main-menu a:hover {
+    transition: color 0.5s;
+    color: rgb(253, 253, 253);
+
+}
+
+main p {
+    text-align: justify;
+}
+
+.banyainside {
+    height: 400px;
+    width: 700px;
+    text-align: left;
+    margin: 3rem 0;
+}
+
+.banyainside img {
+    height: 100%;
+    width: 100%;
+
+}
+.tupovenik {
+    height: 400px;
+    width: 700px;
+    text-align: left;
+    margin: 3rem 0;
+}
+.tupovenik img {
+    height: 100%;
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.btn {
+    text-decoration: none;
+    color: rgb(249, 249, 249);
+    font-weight: bold;
+    border: 2px solid rgb(249, 249, 249);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    transition: color 0.5s, border-color 0.5s;
+    color: cyan;
+    border-color: cyan;
+}
+
+.color {
+    color: rgb(115, 226, 30);
+}
+
+.footer {
+    background-color: rgb(146, 156, 143);
+    padding: 15px;
+    margin-top: 2rem;
+}
