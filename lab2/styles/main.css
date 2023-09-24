@@ -1,0 +1,38 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+h1 {
+    
+    text-align: center;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.container {
+    font-size: 25px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+input, textarea, select {
+    font-size: inherit;
+}
+.btn {
+    display: block;
+    height: 40px;
+    width: 150px;
+    margin: 0 auto;
+    background-color: rgb(116, 232, 208);
+    border: 1px solid rgb(118, 118, 118);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
