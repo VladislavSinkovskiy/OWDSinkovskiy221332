@@ -1,0 +1,128 @@
+body {
+    margin: 0px 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media all and (max-width: 1024px) {
+    .navigation {
+        flex-direction: column;
+    }
+}
+
+.container {
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(88, 203, 231);
+    border-bottom: 2px solid rgb(88, 203, 231);
+}
+
+.main-menu {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.name-label {
+    display: flex;
+    font-size: x-large;
+    margin-left: 50px;
+}
+
+.name-label p {
+    margin: 24px 5px 24px 5px;
+}
+
+.name-label img {
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    margin: 0px 10px 0px 10px;
+}
+
+.navigation a:hover {
+    transition: 0.5s;
+    color: #a87432;
+}
+
+.good-name {
+    text-align: center;
+    margin: 150px 0px 16px 0px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.goods-list {
+    display: flex;
+}
+
+.good {
+    margin: 100px 0px 100px 0px;
+}
+.good-img img {
+    display: block;
+    width: 75%;
+    height: 75%;
+    margin: auto auto;
+}
+
+.good-description {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.price {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.footer {
+    margin-top: 100px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(88, 203, 231);
+    border-top: 1px solid rgb(88, 203, 231);
+}
+
+.footer p, a, img {
+    margin: 10px 5px 10px 5px;
+}
+
+.form-link {
+    text-decoration: none;
+    color: black;
+}
+
+.form-link:hover {
+    transition: 0.5s;
+    color: #a87432;
+}
+
+.telegram {
+    width: 40px;
+    height: 48px;
+    margin-bottom: 15px;
+}
+
+.vk {
+    width: 60px;
+    height: 46px;
+    margin-bottom: 15px;
+}

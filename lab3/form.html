@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Feedback form</title>
+        <link href="styles/form.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600;1,700&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Feedback form</h1>
+            <form action="https://httpbin.org/post" method="POST" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label class="form-label" for="name">Full name</label>
+                    <input id="name" type="text" name="name" value="Anonim" required>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="email">Email</label>
+                    <input id="email" type="text" name="email" placeholder="enter your email">
+                </div>
+
+                <div class="form-group">
+                    <p class="form-label">How did you hear about us?</p>
+                    <input type="radio" name="source" id="advertising" value="advertising">
+                    <label for="advertising">Internet advertising</label>
+
+                    <input type="radio" name="source" id="friends" value="friends">
+                    <label for="friends">Friends suggestion</label>
+
+                    <input type="radio" name="source" id="other" value="other">
+                    <label for="other">Other</label>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="category">Treatment category</label>
+                    <select name="category" id="category">
+                        <option value="proposal">Question about the product</option>
+                        <option value="proposal">Suggstion</option>
+                        <option value="grievance">Complaint</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="message">Message text</label>
+                    <textarea id="message" name="message" cols="30" rows="10" placeholder="Enter your message here"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="attachment">Attachment</label>
+                    <input type="file" name="attachment" id="attachment">
+                </div>
+
+                <div class="form-group">
+                    <input type="checkbox" name="agreement" id="agreement" value="yes">
+                    <label for="agreement">I agree with the processing of personal data</label>
+                </div>
+
+                <input class="btn" type="submit" value="Send">
+            </form>
+        </div>
+    </body>
+</html>
