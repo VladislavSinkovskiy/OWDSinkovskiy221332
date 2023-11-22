@@ -6,7 +6,7 @@ html {
     scroll-behavior: smooth;
 }
 
-@media all and (max-width: 1024px) {
+@media all and (max-width: 500px) {
     .navigation {
         flex-direction: column;
     }
@@ -69,19 +69,20 @@ html {
 
 .goods-list {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .good {
-    margin: 100px 0px 100px 0px;
-}
-.good-img img {
-    display: block;
-    width: 75%;
-    height: 75%;
-    margin: auto auto;
+    margin: 100px 50px 100px 50px;
 }
 
-.good-description {
+.good img {
+    width: 200px;
+    display: block;
+    margin: auto auto;
+} 
+
+.good p {
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
 }
